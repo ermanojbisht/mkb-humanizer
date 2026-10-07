@@ -1,0 +1,37 @@
+# Python caches and build output
+__pycache__/
+*.py[cod]
+*.egg-info/
+build/
+dist/
+
+# Local Python environments
+.venv/
+venv/
+env/
+
+# Editors and operating systems
+.idea/
+.vscode/
+.DS_Store
+Thumbs.db
+
+# Local models and model caches
+*.gguf
+*.safetensors
+humanizer-model/
+.ollama/
+
+# Generated rewrites, reports, and temporary files
+*.human.md
+*.human.txt
+*.human.docx
+*.hz.docx
+*.report.json
+reports/
+examples/output/
+examples/reports/
+examples/docx-source/
+
+# Upstream repository retained locally only as a reference
+reference-humanizer-local-model/
