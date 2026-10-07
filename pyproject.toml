@@ -22,11 +22,13 @@ dependencies = []
 
 [project.optional-dependencies]
 docx = ["python-docx>=1.0"]
+gui = ["PySide6>=6.6,<7", "python-docx>=1.0"]
 
 [project.scripts]
 hz = "humanizer.hz:main"
 humanize = "humanizer.hz:main"
 humanize-batch = "humanizer.batch:main"
+humanize-gui = "humanizer.gui:main"
 
 [project.urls]
 Homepage = "https://github.com/sgaofen/humanizer-local-model"
